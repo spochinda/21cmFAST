@@ -137,7 +137,7 @@ struct IonizedBox{
     float *Fcoll;
     float *Fcoll_MINI;
     float *log10_Mturnover_box; //box added by SP
-    float *log10_Mturnover_mini_box; //box added by SP
+    float *log10_Mturnover_MINI_box; //box added by SP
 };
 
 struct BrightnessTemp{

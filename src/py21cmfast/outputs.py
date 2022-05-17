@@ -541,7 +541,7 @@ class IonizedBox(_AllParamsBox):
         if self.flag_options.USE_MINI_HALOS:
             out["Fcoll_MINI"] = filter_shape
             out["log10_Mturnover_box"] = shape #added by SP
-            out["log10_Mturnover_mini_box"] = shape #added by SP
+            out["log10_Mturnover_MINI_box"] = shape #added by SP
 
         return out
 

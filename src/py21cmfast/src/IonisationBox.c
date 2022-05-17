@@ -460,7 +460,7 @@ LOG_SUPER_DEBUG("Calculating and outputting Mcrit boxes for atomic and molecular
                             ave_log10_Mturnover      += log10_Mturnover;
                             ave_log10_Mturnover_MINI += log10_Mturnover_MINI;
                             box->log10_Mturnover_box[HII_R_INDEX(x,y,z)] = log10_Mturnover; //added by SP
-                            box->log10_Mturnover_mini_box[HII_R_INDEX(x,y,z)] = log10_Mturnover_MINI; //added by SP
+                            box->log10_Mturnover_MINI_box[HII_R_INDEX(x,y,z)] = log10_Mturnover_MINI; //added by SP
 
                         }
                     }
