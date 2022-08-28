@@ -2313,7 +2313,6 @@ def run_coeval(
         perturb_files = []
         ionize_files = []
         brightness_files = []
-
         # Iterate through redshift from top to bottom
         for iz, z in enumerate(redshifts):
             pf2 = perturb[iz]
